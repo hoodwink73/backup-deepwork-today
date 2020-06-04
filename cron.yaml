@@ -1,0 +1,5 @@
+cron:
+  - description: "Weekly Deepwork Today Firestore Export"
+    url: /cloud-firestore-export?outputUriPrefix=gs://deepwork-today.appspot.com&collections=users
+    target: cloud-firestore-admin
+    schedule: every monday 09:00
